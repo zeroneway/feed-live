@@ -128,6 +128,24 @@ def mint(cdp, pid, timeout=20):
         "extra": d.get("extraInfo"),
     }
 
+TRANSIENT = ("no get_live_info response", "no body", "Timeout", "timeout", "connection")
+
+def mint_retry(cdp, pid, tries=3):
+    """瞬时失败（请求没回来/资源句柄丢了）重试，真错误（地区限制/需登录）立即返回。"""
+    last = None
+    for k in range(tries):
+        r = mint_retry(cdp, pid)
+        if r.get("ok"):
+            return r
+        last = r
+        msg = str(r.get("errinfo") or r.get("error") or "")
+        if not any(t in msg for t in TRANSIENT):
+            return r
+        if k + 1 < tries:
+            print(f"    重试 {k+1}/{tries-1} ({msg[:40]})", flush=True)
+            time.sleep(2 + k * 2)
+    return last
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="")
