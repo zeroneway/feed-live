@@ -1,0 +1,34 @@
+name: probe
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: egress
+        run: curl -sS https://ipinfo.io/json || true
+
+      - name: chrome
+        run: (google-chrome --version || chromium --version || echo "no chrome") 2>&1 | head -3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -q websockets
+
+      - name: try 4 channels from scratch
+        env:
+          CI: "true"
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          rm -f results.json
+          python3 refresh.py --fresh --only 600001859,600002475,600001818,600001811
+          python3 -c "import json;[print(r['name'], r.get('api_code'), r.get('errinfo'), (r.get('playurl') or '')[:60]) for r in json.load(open('results.json'))]"

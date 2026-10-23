@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+refresh.log
+urls.txt
+# 本地说明文档/脚本，不进公开仓库
+央视频*.md
+GitHub-*.md
+*.command
+上传到GitHub.sh
+results.json
+verified.json
+playlist.m3u
+urls.txt
