@@ -130,21 +130,33 @@ def mint(cdp, pid, timeout=20):
 
 TRANSIENT = ("no get_live_info response", "no body", "Timeout", "timeout", "connection")
 
+def fresh_tab():
+    c = new_tab()
+    c.send("Network.enable", {"maxTotalBufferSize": 256 * 1024 * 1024, "maxResourceBufferSize": 32 * 1024 * 1024})
+    c.send("Page.enable")
+    c.send("Runtime.enable")
+    return c
+
 def mint_retry(cdp, pid, tries=3):
-    """瞬时失败（请求没回来/资源句柄丢了）重试，真错误（地区限制/需登录）立即返回。"""
+    """瞬时失败（请求没回来/句柄丢了）换新标签页重试；真错误（地区限制/需登录）立即返回。"""
     last = None
     for k in range(tries):
-        r = mint_retry(cdp, pid)
+        r = mint(cdp, pid)
         if r.get("ok"):
-            return r
+            return r, cdp
         last = r
         msg = str(r.get("errinfo") or r.get("error") or "")
         if not any(t in msg for t in TRANSIENT):
-            return r
+            return r, cdp
         if k + 1 < tries:
-            print(f"    重试 {k+1}/{tries-1} ({msg[:40]})", flush=True)
-            time.sleep(2 + k * 2)
-    return last
+            print(f"    重试 {k+1}/{tries-1}", flush=True)
+            try:
+                cdp.ws.close()
+            except Exception:
+                pass
+            time.sleep(1 + k)
+            cdp = fresh_tab()
+    return last, cdp
 
 def main():
     ap = argparse.ArgumentParser()
@@ -158,9 +170,6 @@ def main():
         want = set(args.only.split(","))
         chans = [c for c in chans if str(c["pid"]) in want]
     ensure_chrome()
-    cdp = new_tab()
-    cdp.send("Network.enable", {"maxTotalBufferSize": 256 * 1024 * 1024, "maxResourceBufferSize": 32 * 1024 * 1024})
-    cdp.send("Page.enable"); cdp.send("Runtime.enable")
     outjson = os.path.join(args.out, "results.json")
     done = {}
     if os.path.exists(outjson) and not args.fresh:
@@ -174,18 +183,24 @@ def main():
         pid = str(c["pid"])
         if pid in done and done[pid].get("ok"):
             continue
-        r = mint(cdp, pid)
+        cdp = fresh_tab()
+        r, cdp = mint_retry(cdp, pid)
+        try:
+            cdp.ws.close()
+        except Exception:
+            pass
         r["name"] = c["name"]; r["cnlid_cms"] = c.get("cnlid")
         done[pid] = r
         status = "OK " if r.get("ok") else "FAIL"
         print(f"[{i}/{len(chans)}] {status} {c['name']:<24} pid={pid} cnlid={r.get('cnlid')} {r.get('errinfo') or r.get('error') or ''}", flush=True)
         json.dump(list(done.values()), open(outjson, "w"), ensure_ascii=False, indent=1)
     ok = [r for r in done.values() if r.get("ok") and r.get("playurl")]
+    stat = [r for r in ok if not args.only or str(r["pid"]) in want]
     with open(os.path.join(args.out, "playlist.m3u"), "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for r in ok:
             f.write(f'#EXTINF:-1 tvg-id="{r["pid"]}" tvg-name="{r["name"]}",{r["name"]}\n{r["playurl"]}\n')
-    print(f"\n成功 {len(ok)}/{len(chans)}，用时 {int(time.time()-t0)}s")
+    print(f"\n成功 {len(stat)}/{len(chans)}，用时 {int(time.time()-t0)}s")
     print("playlist:", os.path.join(args.out, "playlist.m3u"))
 
 if __name__ == "__main__":
