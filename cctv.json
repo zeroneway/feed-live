@@ -94,5 +94,17 @@
   "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv17_1/index.m3u8?BR=pd",
   "res": "1920x1080",
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ddef563072f8bad2bea5b9e52674cb7b4ed50efb20c26e61994dfbdf05c1e3c0.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV5+",
+  "url": "https://ldcctvwbcdbd.a.bdydns.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/649ad76a90bfef55b05db9fe52e006487280f619089099d5dc971e387fc6eff0.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV16-HD",
+  "url": "https://ldcctvwbcdbd.a.bdydns.com/ldcctvwbcd/cdrmldcctv16_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp"
  }
 ]

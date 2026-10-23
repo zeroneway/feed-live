@@ -1,23 +1,5 @@
 [
  {
-  "name": "CCTV5+",
-  "pid": 600001817,
-  "cnlid": "2024078001",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/649ad76a90bfef55b05db9fe52e006487280f619089099d5dc971e387fc6eff0.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV16-HD",
-  "pid": 600098637,
-  "cnlid": "2027249101",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV16(4K）",
-  "pid": 600099502,
-  "cnlid": "2027249301",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp"
- },
- {
   "name": "CCTV4K",
   "pid": 600002264,
   "cnlid": "2029810301",
