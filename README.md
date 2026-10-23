@@ -13,7 +13,8 @@ Auto-refreshed HLS playlist for a TV box / media player.
 | `refresh.py` | fetch stream URLs with headless Chrome |
 | `build.py` | build `playlist.m3u` |
 | `check.py` | optional reachability check |
-| `sources.json` | channel table |
+| `sources.json` | channel table (refreshed) |
+| `cctv.json` | fixed endpoints, not refreshed |
 | `.github/workflows/refresh.yml` | scheduled job; publishes to the `data` branch |
 
 The generated playlist is published to the **`data`** branch only, so `main` stays small.
