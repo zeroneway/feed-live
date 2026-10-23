@@ -12,42 +12,6 @@
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202503/df543dd2e337be8bf6aa06342d8d790992f7ae47b89403606253436e40409031.png?imageMogr2/format/webp"
  },
  {
-  "name": "CGTN",
-  "pid": 600014550,
-  "cnlid": "2024181701",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/a72dff758ca1c17cd0ecc8cedc11b893d208f409d5e6302faa0e9d298848abc3.png?imageMogr2/format/webp"
- },
- {
-  "name": "CGTN法语频道",
-  "pid": 600084704,
-  "cnlid": "2024181801",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/a8d0046a47433d952bf6ed17062deb8bd2184ba9aec0f7781df6bf9487a3ffcf.png?imageMogr2/format/webp"
- },
- {
-  "name": "CGTN俄语频道",
-  "pid": 600084758,
-  "cnlid": "2024181901",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/bf0a820893cbaf20dd0333e27042e1ef9c8806e5b602b6a8c95af399db0bc77a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CGTN阿拉伯语频道",
-  "pid": 600084782,
-  "cnlid": "2024182001",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/2e44e2aa3e7a1cedf07fd0ae59fe69e86a60a2632660a006e3e9e7397b2d107e.png?imageMogr2/format/webp"
- },
- {
-  "name": "CGTN西班牙语频道",
-  "pid": 600084744,
-  "cnlid": "2024182101",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202309/7c337e3dbe64402ec7e4678a619a4a6d95144e42f35161181ff78e143b7cf67a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CGTN外语纪录频道",
-  "pid": 600084781,
-  "cnlid": "2024182301",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202309/74d3ac436a7e374879578de1d87a941fbf566d39d5632b027c5097891ed32bd5.png?imageMogr2/format/webp"
- },
- {
   "name": "CCTV风云剧场频道",
   "pid": 600099658,
   "cnlid": "2025637103",
@@ -64,12 +28,6 @@
   "pid": 600099620,
   "cnlid": "2026874303",
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/5661bd04fecdb6e899f801147a22ab5d3a475bf2b62e30aec2c0023190ebc9b1.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV风云足球频道",
-  "pid": 600099636,
-  "cnlid": "2026966203",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/cd1e2bb52b06a991de168733e5ff0f1d85adc8042d40c8f393f723543e5dd08a.png?imageMogr2/format/webp"
  },
  {
   "name": "北京卫视",

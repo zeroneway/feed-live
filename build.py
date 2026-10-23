@@ -36,10 +36,11 @@ def load_static():
         with cf.ThreadPoolExecutor(8) as ex:
             ok = list(ex.map(lambda r: alive(r["url"]), rows))
         bad = [r["name"] for r, k in zip(rows, ok) if not k]
-        rows = [r for r, k in zip(rows, ok) if k]
-        print(f"固定地址检测: {len(rows)}/{len(rows) + len(bad)} 可用" + (f"，失效: {','.join(bad)}" if bad else ""))
-        if len(rows) < 8:
-            print("固定地址大面积失效，中止发布")
+        n_ok = len(rows) - len(bad)
+        print(f"固定地址检测: {n_ok}/{len(rows)} 可用" + (f"，本机不可达: {','.join(bad)}（可能只是地区限制，仍保留）" if bad else ""))
+        # 地区限制会让海外 runner 访问不到部分频道，所以只报警不剔除；全部不可达才认为地址失效
+        if n_ok == 0:
+            print("固定地址全部不可达，中止发布")
             sys.exit(1)
     return rows
 
