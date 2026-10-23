@@ -30,7 +30,7 @@ jobs:
           CHROME_BIN: /usr/bin/google-chrome
         run: |
           python3 refresh.py --fresh
-          python3 build.py
+          VERIFY=1 python3 build.py
 
       - name: publish to data branch
         run: |

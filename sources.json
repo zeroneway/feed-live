@@ -1,99 +1,9 @@
 [
  {
-  "name": "CCTV1",
-  "pid": 600001859,
-  "cnlid": "2024078201",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/d57905b93540bd15f0c48230dbbbff7ee0d645ff539e38866e2d15c8b9f7dfcd.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV2",
-  "pid": 600001800,
-  "cnlid": "2024075401",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/20115388de0207131af17eac86c33049b95d69eaff064e55653a1b941810a006.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV3",
-  "pid": 600001801,
-  "cnlid": "2024068501",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/7b7a65c712450da3deb6ca66fbacf4f9aee00d3f20bd80eafb5ada01ec63eb3a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV4",
-  "pid": 600001814,
-  "cnlid": "2029797101",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/f357e58fdbcc076a3d65e1f958c942b2e14f14342c60736ceed98b092d35356a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV5",
-  "pid": 600001818,
-  "cnlid": "2024078401",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/0a6a7138952675983a3d854df7688557b286d59aa06166edae51506f9204d655.png?imageMogr2/format/webp"
- },
- {
   "name": "CCTV5+",
   "pid": 600001817,
   "cnlid": "2024078001",
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/649ad76a90bfef55b05db9fe52e006487280f619089099d5dc971e387fc6eff0.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV6",
-  "pid": 600108442,
-  "cnlid": "2013693901",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/741515efda91f03f455df8a7da4ee11fa9329139c276435cf0a9e2af398d5bf2.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV7",
-  "pid": 600004092,
-  "cnlid": "2024072001",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/b29af94e295ebdf646cefb68122c429b9cd921f498ca20d2d8070252536f9ff9.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV8",
-  "pid": 600001803,
-  "cnlid": "2029793001",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ad51de94426a0ba039e6dd6a8534ea98ecc813a6176bde87b4f18cc34d6d7590.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV9",
-  "pid": 600004078,
-  "cnlid": "2024078601",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/2ed1b4deeca179d5db806bb941790f82eb92a1b7299c1c38fe027f95a5caee5e.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV10",
-  "pid": 600001805,
-  "cnlid": "2024078701",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/aa6157ec65188cd41826e5a2f088c3d6d153205f5f6428258d12c59999e221aa.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV11",
-  "pid": 600001806,
-  "cnlid": "2027248701",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ed12ed7c7a1034dae4350011fe039284c5d5a836506b28c9e32e3c75299625c0.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV12",
-  "pid": 600001807,
-  "cnlid": "2027248801",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/484083cffaa40df7e659565e8cb4d1cc740158a185512114167aa21fa0c59240.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV13",
-  "pid": 600001811,
-  "cnlid": "2029797201",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/266da7b43c03e2312186b4a999e0f060e8f15b10d2cc2c9aa32171819254cf1a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV14",
-  "pid": 600001809,
-  "cnlid": "2027248901",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/af6b603896938dc346fbb16abfc63c12cba54b0ec9d18770a15d347d115f12d5.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV15",
-  "pid": 600001815,
-  "cnlid": "2027249001",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/2ceee92188ef684efe0d8b90839c4f3ad450d179dc64d59beff417059453af47.png?imageMogr2/format/webp"
  },
  {
   "name": "CCTV16-HD",
@@ -106,12 +16,6 @@
   "pid": 600099502,
   "cnlid": "2027249301",
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV17",
-  "pid": 600001810,
-  "cnlid": "2027249401",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ddef563072f8bad2bea5b9e52674cb7b4ed50efb20c26e61994dfbdf05c1e3c0.png?imageMogr2/format/webp"
  },
  {
   "name": "CCTV4K",
@@ -180,64 +84,10 @@
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/5661bd04fecdb6e899f801147a22ab5d3a475bf2b62e30aec2c0023190ebc9b1.png?imageMogr2/format/webp"
  },
  {
-  "name": "CCTV世界地理频道",
-  "pid": 600099637,
-  "cnlid": "2026874403",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/bb3c6c9e145d698137f5bb64a582021a01b51344b929003630eb769ea65832a9.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV风云音乐频道",
-  "pid": 600099660,
-  "cnlid": "2026874503",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/bbf1d024c5228b8dd128b0e3cb1717d173fab4ee84c3a4c8a57b1a215362ca3b.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV兵器科技频道",
-  "pid": 600099649,
-  "cnlid": "2026874603",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/4c6b6a6d3839889f34d33db3c2f80233b26b74d3489b393487635f8704e70796.png?imageMogr2/format/webp"
- },
- {
   "name": "CCTV风云足球频道",
   "pid": 600099636,
   "cnlid": "2026966203",
   "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/cd1e2bb52b06a991de168733e5ff0f1d85adc8042d40c8f393f723543e5dd08a.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV高尔夫·网球频道",
-  "pid": 600099659,
-  "cnlid": "2026874703",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/cdd1b31ede7a5ad049ed53d9a072422f829e72dd062ed2c19e077fdd01699071.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV女性时尚频道",
-  "pid": 600099650,
-  "cnlid": "2026874803",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/fa28955ce8b2539d728bf4c6a13a46ff57ad76eae46627f7bcfb1ed8a613d3fc.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV央视文化精品频道",
-  "pid": 600099653,
-  "cnlid": "2026874903",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/14ac5ce40482cacd3d4b37435222bfe86af2b452a2f04ecbfc1d13d76edd7c57.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV央视台球频道",
-  "pid": 600099652,
-  "cnlid": "2026875003",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/10e14a92478011aa6c3c8562e62127f3b1908e29fcd78e4b2b24b9e6d3ec2fbc.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV电视指南频道",
-  "pid": 600099656,
-  "cnlid": "2026875103",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/244d72c0eb1615ed7d51c2f5db5a67f306aa3f58c05bc2d34de3aa7e956dc8c9.png?imageMogr2/format/webp"
- },
- {
-  "name": "CCTV卫生健康频道",
-  "pid": 600099651,
-  "cnlid": "2025637003",
-  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/54a6863656fdfd8f803be193ddf22441c5000a108833889816fd2d8911715ce8.png?imageMogr2/format/webp"
  },
  {
   "name": "北京卫视",

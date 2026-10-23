@@ -1,0 +1,98 @@
+[
+ {
+  "name": "CCTV1",
+  "url": "https://ldncctvwbcdbd.a.bdydns.com/ldncctvwbcd/cdrmldcctv1_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/d57905b93540bd15f0c48230dbbbff7ee0d645ff539e38866e2d15c8b9f7dfcd.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV2",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv2_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/20115388de0207131af17eac86c33049b95d69eaff064e55653a1b941810a006.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV3",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv3_1/index.m3u8?BR=td",
+  "res": "1280x720",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/7b7a65c712450da3deb6ca66fbacf4f9aee00d3f20bd80eafb5ada01ec63eb3a.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV4",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv4_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/f357e58fdbcc076a3d65e1f958c942b2e14f14342c60736ceed98b092d35356a.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV5",
+  "url": "https://ldcctvwbcdbyte.volcfcdn.com/ldcctvwbcd/cdrmldcctv5_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/0a6a7138952675983a3d854df7688557b286d59aa06166edae51506f9204d655.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV6",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv6_1/index.m3u8?BR=td",
+  "res": "1280x720",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/741515efda91f03f455df8a7da4ee11fa9329139c276435cf0a9e2af398d5bf2.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV7",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv7_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/b29af94e295ebdf646cefb68122c429b9cd921f498ca20d2d8070252536f9ff9.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV8",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv8_1/index.m3u8?BR=td",
+  "res": "1280x720",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ad51de94426a0ba039e6dd6a8534ea98ecc813a6176bde87b4f18cc34d6d7590.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV9",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv9_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/2ed1b4deeca179d5db806bb941790f82eb92a1b7299c1c38fe027f95a5caee5e.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV10",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv10_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/aa6157ec65188cd41826e5a2f088c3d6d153205f5f6428258d12c59999e221aa.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV11",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv11_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ed12ed7c7a1034dae4350011fe039284c5d5a836506b28c9e32e3c75299625c0.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV12",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv12_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/484083cffaa40df7e659565e8cb4d1cc740158a185512114167aa21fa0c59240.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV13",
+  "url": "https://ldncctvwbcdbd.a.bdydns.com/ldncctvwbcd/cdrmldcctv13_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/266da7b43c03e2312186b4a999e0f060e8f15b10d2cc2c9aa32171819254cf1a.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV14",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv14_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/af6b603896938dc346fbb16abfc63c12cba54b0ec9d18770a15d347d115f12d5.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV15",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv15_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/2ceee92188ef684efe0d8b90839c4f3ad450d179dc64d59beff417059453af47.png?imageMogr2/format/webp"
+ },
+ {
+  "name": "CCTV17",
+  "url": "https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv17_1/index.m3u8?BR=pd",
+  "res": "1920x1080",
+  "logo": "https://resources.yangshipin.cn/assets/oms/image/202306/ddef563072f8bad2bea5b9e52674cb7b4ed50efb20c26e61994dfbdf05c1e3c0.png?imageMogr2/format/webp"
+ }
+]
