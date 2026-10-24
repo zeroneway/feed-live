@@ -1,7 +1,6 @@
 name: refresh
 on:
-  schedule:
-    - cron: '0 */3 * * *'
+  # 定时任务暂停：当前列表为人工验片源，恢复前请勿开启
   workflow_dispatch:
 
 permissions:

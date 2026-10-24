@@ -1,0 +1,80 @@
+{
+ "CCTV1": {
+  "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+  "w": 1280,
+  "h": 720,
+  "mean": 150.5
+ },
+ "CCTV9": {
+  "url": "http://74.91.26.218:82/live/cctv9hd.m3u8",
+  "w": 1280,
+  "h": 720,
+  "mean": 174.2
+ },
+ "浙江卫视": {
+  "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 57.7
+ },
+ "湖南卫视": {
+  "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+  "w": 3840,
+  "h": 2160,
+  "mean": 110.8
+ },
+ "东方卫视": {
+  "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 116.3
+ },
+ "河北卫视": {
+  "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+  "w": 3840,
+  "h": 2160,
+  "mean": 75.5
+ },
+ "江西卫视": {
+  "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+  "w": 1920,
+  "h": 1080,
+  "mean": 79.2
+ },
+ "内蒙古卫视": {
+  "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 162.6
+ },
+ "西藏卫视": {
+  "url": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+  "w": 720,
+  "h": 576,
+  "mean": 137.3
+ },
+ "延边卫视": {
+  "url": "https://srs.iyb983.cn/video/CYS/index.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 56.3
+ },
+ "安多卫视": {
+  "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 92.8
+ },
+ "凤凰卫视": {
+  "url": "https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8",
+  "w": 1280,
+  "h": 720,
+  "mean": 178.1
+ },
+ "CCTV13": {
+  "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+  "w": 1920,
+  "h": 1080,
+  "mean": 61.5
+ }
+}
